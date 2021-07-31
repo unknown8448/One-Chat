@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="static/chat.js"></script>
+    </script>
+    <title>Anonymous Chatting</title>
+  </head>
+  <body>
+<div class="main-section">
+	<div class="row border-chat">
+		<div class="col-md-12 col-sm-12 col-xs-12 first-section">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 left-first-section">
+					<p>Anonymous Chatting</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row border-chat">
+		<div class="col-md-12 col-sm-12 col-xs-12 second-section">
+			<div id="divText" class="chat-section">
+				<ul id="messages">
+					<li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row border-chat">
+		<div class="col-md-12 col-sm-12 col-xs-12 third-section">
+			<div class="text-bar">
+				<input type="text" id="m" placeholder="Write messege" autocomplete="off" disabled><a href="#"><i id="send" class="fa fa-arrow-right"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+  </body>
+</html>
